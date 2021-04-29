@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #d36f6f;
+    --primarydark-color: #d36f6f;
+    --background-color: #d36f6f;
+    --accent-color: #d0d69e;
+}
+
+body {
+    background: var(--background-color);
+    margin: 0;
+    font-family: Papyrus, Times, fantasy;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

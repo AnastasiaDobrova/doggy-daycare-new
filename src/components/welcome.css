@@ -1,0 +1,56 @@
+.Welcome {
+    background: var(--primary-color);
+    flex-direction: column;
+    text-align: center;
+    height: calc(100vh - 7.5vh);
+}
+
+.Welcome main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Paw {
+    margin-top: 2em;
+    width: 70vmin;
+    height: 70vmin;
+    overflow: hidden;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #cb7272, #f18888);
+    box-shadow: 22px 22px 44px #a75e5e, -22px -22px 44px #ffa0a0;
+    transition: transform 0.2s ease-out;
+    margin-bottom: 2em;
+}
+
+.Welcome img {
+    width: auto;
+    height: 80%;
+    margin-top: 4em;
+    float: none;
+    pointer-events: none;
+    filter: invert(87%) sepia(20%) saturate(653%) hue-rotate(308deg) brightness(99%) contrast(86%); /*#ecc0c0*/
+}
+
+.Paw:hover {
+    transform: scale(1.02) ;
+    background: linear-gradient(145deg, #f16767, #cb5656);
+    box-shadow: 48px 48px 96px #923e3e, -48px -48px 96px #ff8282;
+}
+
+.Welcome .welcomeText {
+    margin-bottom: 1em;
+    color: #ffffff;
+    font-size: 4vmin;
+}
+
+#header1 {
+    display: none;
+}
+
+
+
+
+

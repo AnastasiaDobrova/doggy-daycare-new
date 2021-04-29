@@ -1,0 +1,44 @@
+.App {
+    text-align: left;
+    height: 100%;
+}
+
+.App header {
+    height: 7.5vh;
+    display: block;
+}
+
+.App header .Logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.App header img {
+    filter: invert(87%) sepia(20%) saturate(653%) hue-rotate(308deg) brightness(99%) contrast(86%);
+    width: auto;
+    height: 75%;
+    margin-right: 2vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App header img {
+        animation: LogoIn infinite 3s ease-in-out;
+    }
+}
+
+@keyframes LogoIn {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);    
+    }
+}
+
+
+

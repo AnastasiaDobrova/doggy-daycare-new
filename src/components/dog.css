@@ -1,0 +1,124 @@
+.Dog .Container {
+    padding: 1vmin;
+    width: 80vmin;
+    font-family:"Courier New", monospace;
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 9px 9px 18px #a75e5e, -9px -9px 18px #ffa0a0;
+}
+
+
+.Dog .Photo {
+    width: 40vmin;
+    height: 40vmin;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 9px 9px 18px #a75e5e, -9px -9px 18px #ffa0a0;
+}
+
+.Dog .Photo:hover {
+    transform: scale(1.05);
+}
+
+.Dog .Info {
+    padding: 2vmin;
+    align-items: center;
+}
+
+.Dog .MyDog {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Dog .Name {
+    font-size: 4vmin;
+    margin: 0px;
+}
+
+.Dog .Sex {
+    border-radius: 20%;
+    box-shadow: inset 3px 3px 3px #a75e5e, inset -3px -3px 3px #ffa0a0;
+    background: #d36f6f;
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.3em;
+}
+
+.Dog .Age {
+    font-size: 4vmin;
+}
+
+.Dog .Breed {
+    font-size: 1em;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+.Dog .Chip {
+    font-size: 2vmin;
+}
+
+.Dog .Present {
+    font-size: 2vmin;
+}
+
+.Dog .Owner {
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 3px #a75e5e, inset -3px -3px 3px #ffa0a0;
+    background: #d36f6f;
+    padding: 0.5vmin;
+    margin-right:1em;    
+}
+
+.Dog .OwnerName {
+    font-size: 4vmin;
+    text-align: center;
+}
+
+
+.Dog .Phone {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.Dog .Call {
+    border-radius: 20%;
+    box-shadow: inset 3px 3px 3px #a75e5e, inset -3px -3px 3px #ffa0a0;
+    background: #d36f6f;
+    width: 4vmin;
+    height: 4vmin;
+    object-fit: contain;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+.Dog .Call:hover {
+    transform: scale(1.4);
+}
+
+
+.Dog .OwnerInfo .PhoneNum {
+    margin-right: 1em;
+    padding: 0px;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
