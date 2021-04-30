@@ -7,7 +7,7 @@ import { Route, BrowserRouter as Router, Link, Switch } from "react-router-dom"
 
 function App() {
     return (
-        <Router>
+        <HushRouter>
             <div className="App">
                 <header id="header1"  >
                     <Link className="Logo" to="/">
@@ -23,7 +23,7 @@ function App() {
                     </Switch>
                 </main>
             </div>
-        </Router>
+        </HushRouter>
     );
 }
 
