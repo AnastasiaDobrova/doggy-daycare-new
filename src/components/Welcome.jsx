@@ -9,7 +9,7 @@ function Welcome() {
             <main>
                 <p className="welcomeText">Welcome to the Doggy Daycare!<br /> We help you keep track of your dogs.</p>
                 <Link className="Paw" to="/overview">
-                    <img src="./images/paw.png" />
+                    <img src={process.env.PUBLIC_URL + "/images/paw.png"} alt="paw" />
                 </Link>
             </main>
         </div>

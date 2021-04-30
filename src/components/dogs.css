@@ -58,11 +58,11 @@
     font-weight: bold;
     font-size: 1.5em;
 }
-.DogItem .DogInfo .sex {
+.Dogs .DogItem .DogInfo .sex {
     box-shadow: inset 3px 3px 3px #a75e5e, inset -3px -3px 3px #ffa0a0;
     background: #d36f6f;
-    width: 2em;
-    height: 2em;
+    width: 1em;
+    height: 1em;
     text-align: right;
     object-fit: contain;
     padding: 0.3em;

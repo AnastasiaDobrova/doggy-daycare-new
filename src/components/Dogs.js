@@ -29,7 +29,7 @@ function Dogs() {
                         <div>
                             <div className="DogInfo">
                                 <p className="name">{dog.name}</p>
-                                <img className="sex" src={dog.sex === "female" ? "/images/female.png" : "/images/male.png"} alt="sex" />
+                                <img className="sex" src={dog.sex === "female" ? (process.env.PUBLIC_URL + "/images/female.png") : (process.env.PUBLIC_URL + "/images/male.png")} alt="sex" />
                             </div>
                             <p>({dog.owner.name} {dog.owner.lastName})</p>
                         </div>

@@ -22,7 +22,7 @@ const Dog = (props) => {
                         <div className="Info">
                             <div className="MyDog">
                                 <p className="Name">{dog.name}</p>
-                                <img className="Sex" src={dog.sex === "female" ? "/images/female.png" : "/images/male.png"} alt="sex" />
+                                <img className="Sex" src={dog.sex === "female" ? (process.env.PUBLIC_URL + "/images/female.png") : (process.env.PUBLIC_URL + "/images/male.png")} alt="sex" />
                                 <h className="Age">{dog.age} y.</h>
                             </div>
                             <p className="Breed">{dog.breed}</p>
@@ -32,7 +32,7 @@ const Dog = (props) => {
                                 <p className="OwnerName">{dog.owner.name} {dog.owner.lastName}</p>
                                 <div className="Phone">
                                     <a href={"tel:" + dog.owner.phoneNumber}>
-                                        <img className="Call" src="/images/phone.png" alt="phone" />
+                                        <img className="Call" src={process.env.PUBLIC_URL + "/images/phone.png"} alt="phone" />
                                     </a>
                                     <p className="PhoneNum">{dog.owner.phoneNumber}</p>
                                 </div>

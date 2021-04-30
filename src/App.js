@@ -10,7 +10,7 @@ function App() {
             <div className="App">
                 <header id="header1"  >
                     <Link className="Logo" to="/">
-                        <img src="./images/paw.png" />
+                        <img src={process.env.PUBLIC_URL + "/images/paw.png"} alt="paw" />
                     </Link>
                 </header>
                 <main>
