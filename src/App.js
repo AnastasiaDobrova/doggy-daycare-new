@@ -16,7 +16,7 @@ function App() {
                 </header>
                 <main>
                     <Switch>
-                        <Route path="/" exact> <Welcome /></Route>
+                        <Route exact path="/" > <Welcome /></Route>
                         <Route path="/overview"> <Dogs /> </Route>
                         <Route path="/dog/:chipNumber"> <Dog /> </Route>
                         
