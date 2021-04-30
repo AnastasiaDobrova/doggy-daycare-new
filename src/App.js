@@ -17,7 +17,7 @@ function App() {
                     <Switch>
                         <Route exact path="/" > <Welcome /></Route>
                         <Route exact path="/overview"> <Dogs /> </Route>
-                        <Route path exact ="/dog/:chipNumber"> <Dog /> </Route>
+                        <Route exact path  ="/dog/:chipNumber"> <Dog /> </Route>
                         
                     </Switch>
                 </main>
