@@ -2,12 +2,11 @@ import "./App.css";
 import Welcome from "./components/Welcome";
 import Dogs from "./components/Dogs";
 import Dog from "./components/Dog";
-
-import { Route, BrowserRouter as Router, Link, Switch } from "react-router-dom"
+import { Route, HashRouter as Router, Link, Switch } from "react-router-dom"
 
 function App() {
     return (
-        <HushRouter>
+        <Router>
             <div className="App">
                 <header id="header1"  >
                     <Link className="Logo" to="/">
@@ -17,13 +16,13 @@ function App() {
                 <main>
                     <Switch>
                         <Route exact path="/" > <Welcome /></Route>
-                        <Route path="/overview"> <Dogs /> </Route>
-                        <Route path="/dog/:chipNumber"> <Dog /> </Route>
+                        <Route exact path="/overview"> <Dogs /> </Route>
+                        <Route path exact ="/dog/:chipNumber"> <Dog /> </Route>
                         
                     </Switch>
                 </main>
             </div>
-        </HushRouter>
+        </Router>
     );
 }
 
